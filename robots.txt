@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://houfy761-tech.github.io/sitemap.xml
