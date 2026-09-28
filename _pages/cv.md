@@ -12,4 +12,3 @@ toc:
 ---
 
 <script src="{{ '/assets/js/search-filter.js' | relative_url }}" defer></script>
-
