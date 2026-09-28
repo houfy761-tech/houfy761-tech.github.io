@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{const a=document.querySelector("ninja-keys");if(!a||!Array.isArray(a.data))return;const e=new Set(["nav-about","nav-theses","social-cv"]);a.data=a.data.filter(a=>e.has(a.id))});
