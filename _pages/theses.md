@@ -42,8 +42,13 @@ nav_order: 4
   }
 
   .thesis-document {
+    display: none;
     margin-bottom: 5rem;
     scroll-margin-top: 5rem;
+  }
+
+  .thesis-document:target {
+    display: block;
   }
 
   .thesis-page-stack {
