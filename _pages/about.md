@@ -8,10 +8,15 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>Research Assistant, The Future Lab</p>
-    <p>Tsinghua University · Beijing, China</p>
-    <p>GitHub: <a href="https://github.com/houfy761-tech">houfy761-tech</a></p>
+ more_info: >
+  <div class="profile-info">
+    <div class="profile-role">Research Assistant</div>
+    <div>The Future Lab, Tsinghua University</div>
+    <div>Beijing, China</div>
+    <div class="profile-link">
+      <a href="https://github.com/houfy761-tech">GitHub</a>
+    </div>
+  </div>
 
 selected_papers: true
 social: true
@@ -32,6 +37,36 @@ latest_posts:
     .post .profile {
       margin-top: -6.9rem;
     }
+  }
+
+  .profile .more-info {
+    font-family: inherit;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .profile-info {
+    color: var(--global-text-color);
+  }
+
+  .profile-role {
+    font-weight: 600;
+    margin-bottom: 0.15rem;
+  }
+
+  .profile-link {
+    margin-top: 0.35rem;
+  }
+
+  .profile-link a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .profile-link a:hover {
+    text-decoration: underline;
   }
 </style>
 
