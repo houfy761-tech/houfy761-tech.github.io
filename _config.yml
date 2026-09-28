@@ -133,10 +133,6 @@ blog_description: Research notes, projects, and updates
 permalink: /blog/:year/:title/
 lsi: false
 
-pagination:
-  enabled: true
-
-
 # Pagination
 pagination:
   enabled: true
