@@ -7,6 +7,8 @@ nav: true
 nav_order: 4
 ---
 
+<script src="{{ '/assets/js/search-filter.js' | relative_url }}" defer></script>
+
 <style>
   .thesis-jump-links {
     display: grid;

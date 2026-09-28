@@ -27,6 +27,16 @@ latest_posts:
   limit: 3
 ---
 
+<style>
+  @media (min-width: 576px) {
+    .post .profile {
+      margin-top: -6.9rem;
+    }
+  }
+</style>
+
+<script src="{{ '/assets/js/search-filter.js' | relative_url }}" defer></script>
+
 I am an applied physics researcher and Research Assistant at **The Future Lab,
 Tsinghua University**. My current work focuses on multimodal olfactory sensing
 and computing, including electronic-nose systems, functional sensing films,
@@ -39,7 +49,7 @@ dynamics and cell pyroptosis, and flexible-substrate metasurface optical
 tweezers.
 
 Alongside experimental research, I develop scientific and human-centered AI
-tools. I created [Locus](https://github.com/houfy761-tech/locus), a decision-support
+tools. I created [Locus](https://app.locusairesearch.com/), a decision-support
 platform for personalized PhD research positioning and advisor discovery. My
 broader interests include sensing, biophysics, functional materials, scientific
 computing, and AI for Science.

@@ -1,4 +1,6 @@
 ---
+
+<script src="{{ '/assets/js/search-filter.js' | relative_url }}" defer></script>
 layout: cv
 permalink: /cv/
 title: CV
