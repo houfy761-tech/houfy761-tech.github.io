@@ -8,15 +8,15 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
- more_info: >
-  <div class="profile-info">
-    <div class="profile-role">Research Assistant</div>
-    <div>The Future Lab, Tsinghua University</div>
-    <div>Beijing, China</div>
-    <div class="profile-link">
-      <a href="https://github.com/houfy761-tech">GitHub</a>
+  more_info: >
+    <div class="profile-info">
+      <div class="profile-role">Research Assistant</div>
+      <div>The Future Lab, Tsinghua University</div>
+      <div>Beijing, China</div>
+      <div class="profile-link">
+        <a href="https://github.com/houfy761-tech">GitHub</a>
+      </div>
     </div>
-  </div>
 
 selected_papers: true
 social: true
@@ -86,5 +86,4 @@ tweezers.
 Alongside experimental research, I develop scientific and human-centered AI
 tools. I created [Locus](https://app.locusairesearch.com/), a decision-support
 platform for personalized PhD research positioning and advisor discovery. My
-broader interests include sensing, biophysics, functional materials, scientific
-computing, and AI for Science.
+broader interests include sensing, biophysics, and AI for Science.
