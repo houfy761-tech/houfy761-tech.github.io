@@ -1,14 +1,11 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Fangyu HOU
-  label: Applied Physics Researcher
+  headline: Applied Physics Researcher
+  location: Beijing, China
   email: houfy761@gmail.com
   phone: "+86 156 9430 8667"
-  location: Beijing, China
-  image: ""
-  summary: >
-    Applied physics researcher working across multimodal olfactory sensing,
-    biophysics, functional materials, scientific computing, and human-centered AI.
-
+  website: https://github.com/houfy761-tech
   social_networks:
     - network: GitHub
       username: houfy761-tech
@@ -16,33 +13,36 @@ cv:
       username: 0009-0000-0990-1823
 
   sections:
-    Education:
+    profile:
+      - Applied physics researcher working across multimodal olfactory sensing, biophysics, functional materials, scientific computing, and human-centered AI.
+
+    education:
       - institution: City University of Hong Kong
-        location: Hong Kong, China
         area: Applied Physics
-        studyType: Master of Science
+        degree: Master of Science
         start_date: 2023-09
         end_date: 2024-10
+        location: Hong Kong, China
         highlights:
           - "Dissertation supervisor: Xiangqiang Chu"
 
       - institution: Lanzhou University
-        location: Lanzhou, China
         area: Physics
-        studyType: Bachelor of Science
+        degree: Bachelor of Science
         start_date: 2019-09
         end_date: 2023-07
+        location: Lanzhou, China
         highlights:
           - "Specialization: Metallic Materials Physics"
           - "Undergraduate thesis supervisor: Dongsheng Lei"
           - "Outstanding Student League Cadre, 2020 and 2021 (Top 5%)"
 
-    Experience:
+    experience:
       - company: The Future Lab, Tsinghua University
         position: Research Assistant
-        location: Beijing, China
         start_date: 2026-01
-        end_date: Present
+        end_date: present
+        location: Beijing, China
         summary: Multimodal Olfactory Sensing and Computing
         highlights:
           - Led a cotton-smoldering early-warning study combining field investigations, AHP-based risk modeling, and TG-FTIR-GC-MS characterization to guide multimodal sensor and experimental-system design.
@@ -52,9 +52,9 @@ cv:
 
       - company: Great Bay University
         position: Research Assistant
-        location: Dongguan, China
         start_date: 2025-09
         end_date: 2025-12
+        location: Dongguan, China
         summary: Biomimetic Colored Radiative-Cooling Films
         highlights:
           - Fabricated and characterized microstructured colored radiative-cooling films using vacuum deposition, UV-Vis spectroscopy, infrared and thermal imaging, nanoindentation, and microscopy.
@@ -62,9 +62,9 @@ cv:
 
       - company: Institute of Physics, Chinese Academy of Sciences
         position: Research Assistant
-        location: Beijing, China
         start_date: 2024-09
         end_date: 2024-12
+        location: Beijing, China
         summary: GSDM Protein Dynamics and Cell Pyroptosis
         highlights:
           - Used HS-AFM to visualize pore-forming dynamics of ThGSDM, GSDMD, and GSDME on bare mica and DOPC/DOPS supported lipid bilayers.
@@ -72,54 +72,47 @@ cv:
 
       - company: National Undergraduate Innovation and Entrepreneurship Training Program
         position: Undergraduate Researcher
-        location: Lanzhou, China
         start_date: 2022-03
         end_date: 2023-03
+        location: Lanzhou, China
         summary: Flexible-Substrate Metasurface Optical Tweezers
         highlights:
           - Designed PDMS flexible-substrate metasurface lenses and nanopillar unit cells using FDTD simulations and MATLAB optical-force modeling.
           - Modeled substrate deformation and demonstrated stable simulated trapping of 15 nm polystyrene spheres near the self-focusing region.
 
-    Projects:
-      - name: "Locus: Human-AI Decision Support for PhD Research Fit and Advisor Discovery"
-        position: Independent Project
-        location: Beijing, China
+    projects:
+      - name: "[Locus](https://github.com/houfy761-tech/locus): Human-AI Decision Support for PhD Research Fit and Advisor Discovery"
         start_date: 2026-04
-        end_date: Present
-        url: https://github.com/houfy761-tech/locus
+        end_date: present
+        location: Beijing, China
+        summary: Independent project
         highlights:
           - Designed and developed a human-AI decision-support platform for personalized PhD research positioning and advisor exploration.
           - Built an adaptive advisor search and ranking engine using offline faculty retrieval, LLM-generated candidates, research-similarity scoring, and institution and discipline constraints.
           - Added uncertainty-aware verification using web, OpenAlex, and ORCID evidence and piloted the platform with more than 50 users.
 
-    Publications:
+    publications:
       - title: Computational Design of 3D-Printable Freeform Caustic Surfaces
         authors:
           - Shuowen Li
           - Danqi Huang
-          - Fangyu Hou
+          - "*Fangyu Hou*"
           - Qiuyu Lu
           - Haipeng Mi
           - Zhihao Yao
-        publisher: ACM SIGGRAPH 2026 Posters
-        releaseDate: 2026
-        url: https://doi.org/10.1145/3799825.3818720
-        summary: Article 4.
+        journal: ACM SIGGRAPH 2026 Posters, Article 4
+        date: "2026"
+        doi: 10.1145/3799825.3818720
 
-      - title: Cotton Smoldering Simulation and Multimodal Gas Detection Device
-        authors:
-          - Yanguang Zhu
-          - Fangyu Hou
-        publisher: Chinese invention patent application
-        releaseDate: 2026
-        summary: Pending.
+    patents:
+      - number: Cotton Smoldering Simulation and Multimodal Gas Detection Device - Chinese invention patent application, pending (2026)
 
-    Skills:
-      - name: Programming and Data Analysis
-        keywords: "Python (NumPy, Pandas, Matplotlib, SciPy), MATLAB, SQLite"
-      - name: Web Development and Deployment
-        keywords: "JavaScript, HTML/CSS, Flask, Linux, Git, Nginx, web deployment, DNS, SSL/TLS configuration"
-      - name: Scientific Computing and Engineering
-        keywords: "FDTD Solutions, COMSOL, SolidWorks, Arduino"
-      - name: Sensing and Experimental Methods
-        keywords: "HS-AFM/AFM, spin coating, ultrasonic spray coating, layer-by-layer assembly, optical, thermal, and mechanical materials characterization"
+    skills:
+      - label: Programming and Data Analysis
+        details: Python (NumPy, Pandas, Matplotlib, SciPy), MATLAB, SQLite
+      - label: Web Development and Deployment
+        details: JavaScript, HTML/CSS, Flask, Linux, Git, Nginx, web deployment, DNS, SSL/TLS configuration
+      - label: Scientific Computing and Engineering
+        details: FDTD Solutions, COMSOL, SolidWorks, Arduino
+      - label: Sensing and Experimental Methods
+        details: HS-AFM/AFM, spin coating, ultrasonic spray coating, layer-by-layer assembly, and optical, thermal, and mechanical materials characterization
