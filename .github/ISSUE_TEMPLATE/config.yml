@@ -1,15 +1,8 @@
-title: Fangyu HOU
-first_name: Fangyu
-last_name: HOU
-
-contact_note: >
-  Feel free to contact me via email houfy@mail.tsinghua.edu.cn/ houfy761@gmail.com.
-
-description: >
-  Personal academic website of Fangyu HOU.
-
-keywords: Physics, AI4Science, Biophysics & Soft Matter
-
-url: https://houfy761-tech.github.io
-baseurl:
-
+blank_issues_enabled: false
+contact_links:
+  - name: ❓ Ask a Question
+    url: https://github.com/alshedivat/al-folio/discussions/categories/q-a
+    about: Ask and answer al-folio related questions.
+  - name: 📖 Read the documentation
+    url: https://github.com/alshedivat/al-folio/blob/main/README.md
+    about: Please consult the documentation before opening any issues!
