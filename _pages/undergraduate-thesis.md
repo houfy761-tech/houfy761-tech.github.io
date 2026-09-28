@@ -49,21 +49,10 @@ nav: false
 <div class="thesis-page-stack">
 
   <div class="thesis-page">
-    <a href="{{ '/assets/img/theses/bsc-thesis-title.png' | relative_url }}">
-      <img
-        src="{{ '/assets/img/theses/bsc-thesis-title.png' | relative_url }}"
-        alt="Title page of the undergraduate thesis"
-      >
-    </a>
-    <div class="thesis-caption">Title Page</div>
-  </div>
-
-  <div class="thesis-page">
     <a href="{{ '/assets/img/theses/bsc-thesis-abstract.png' | relative_url }}">
       <img
         src="{{ '/assets/img/theses/bsc-thesis-abstract.png' | relative_url }}"
         alt="English abstract of the undergraduate thesis"
-        loading="lazy"
       >
     </a>
     <div class="thesis-caption">English Abstract</div>
