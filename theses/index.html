@@ -4,91 +4,32 @@
   }
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://houfy761-tech.github.io/theses/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Fangyu HOU </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/theses/">theses <span class="sr-only">(current)</span> </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">theses</h1> <p class="post-description">Thesis title pages and English abstracts.</p> </header> <article> <script src="/assets/js/search-filter.js" defer></script> <style>
-  .thesis-jump-links {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    margin: 1.5rem 0 3rem;
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Fangyu HOU </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/theses/">theses <span class="sr-only">(current)</span> </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">theses</h1> <p class="post-description">Thesis title pages and English abstracts.</p> </header> <article> <style>
+  .thesis-list {
+    margin-top: 2rem;
   }
 
-  .thesis-jump-link {
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
-    padding: 1.1rem 1.25rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.5rem;
-    color: var(--global-text-color);
-    text-decoration: none;
-    transition:
-      border-color 0.2s ease,
-      transform 0.2s ease;
+  .thesis-item {
+    margin-bottom: 2rem;
   }
 
-  .thesis-jump-link:hover {
-    border-color: var(--global-theme-color);
+  .thesis-item a {
+    font-size: 1.15rem;
+    font-weight: 500;
     color: var(--global-theme-color);
     text-decoration: none;
-    transform: translateY(-2px);
   }
 
-  .thesis-jump-link span {
+  .thesis-item a:hover {
+    text-decoration: underline;
+  }
+
+  .thesis-title {
+    margin-top: 0.35rem;
     color: var(--global-text-color-light);
-    font-size: 0.95rem;
+    font-size: 0.98rem;
   }
-
-  .thesis-document {
-    display: none;
-    margin-bottom: 5rem;
-    scroll-margin-top: 5rem;
-  }
-
-  .thesis-document:target {
-    display: block;
-  }
-
-  .thesis-page-stack {
-    display: grid;
-    gap: 2rem;
-    max-width: 52rem;
-    margin: 1.5rem auto 0;
-  }
-
-  .thesis-page {
-    margin: 0;
-  }
-
-  .thesis-page a {
-    display: block;
-  }
-
-  .thesis-page-image {
-    display: block;
-    width: 100%;
-    height: auto;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.35rem;
-    box-shadow: 0 0.25rem 0.8rem rgba(0, 0, 0, 0.12);
-  }
-
-  .thesis-page figcaption {
-    margin-top: 0.6rem;
-    color: var(--global-text-color-light);
-    font-size: 0.9rem;
-    text-align: center;
-  }
-
-  @media (max-width: 768px) {
-    .thesis-jump-links {
-      grid-template-columns: 1fr;
-    }
-
-    .thesis-page-stack {
-      gap: 1.5rem;
-    }
-  }
-</style> <nav class="thesis-jump-links" aria-label="Thesis sections"> <a class="thesis-jump-link" href="#undergraduate-thesis"> <strong>Undergraduate Thesis</strong> <span>Sequence-based Prediction of Antibody Neutralisation Capacity</span> </a> <a class="thesis-jump-link" href="#masters-thesis"> <strong>Master's Thesis</strong> <span>Neutron Scattering Instruments for Soft Matter and Biological Physics</span> </a> </nav> <section id="undergraduate-thesis" class="thesis-document"> <h2>Undergraduate Thesis</h2> <h3>Sequence-based Prediction of Antibody Neutralisation Capacity</h3> <div class="thesis-page-stack"> <figure class="thesis-page"> <a href="/assets/img/theses/bsc-thesis-title.png" aria-label="Open the undergraduate thesis title page"> <img class="thesis-page-image" src="/assets/img/theses/bsc-thesis-title.png" alt="Title page of the undergraduate thesis"> </a> <figcaption>Title Page</figcaption> </figure> <figure class="thesis-page"> <a href="/assets/img/theses/bsc-thesis-abstract.png" aria-label="Open the undergraduate thesis English abstract page"> <img class="thesis-page-image" src="/assets/img/theses/bsc-thesis-abstract.png" alt="English abstract page of the undergraduate thesis" loading="lazy"> </a> <figcaption>English Abstract</figcaption> </figure> </div> </section> <section id="masters-thesis" class="thesis-document"> <h2>Master's Thesis</h2> <h3>Neutron Scattering Instruments for Soft Matter and Biological Physics</h3> <div class="thesis-page-stack"> <figure class="thesis-page"> <a href="/assets/img/theses/msc-thesis-title.png" aria-label="Open the first title page of the master's thesis"> <img class="thesis-page-image" src="/assets/img/theses/msc-thesis-title.png" alt="First title page of the master's thesis" loading="lazy"> </a> <figcaption>Title Page 1</figcaption> </figure> <figure class="thesis-page"> <a href="/assets/img/theses/msc-thesis-page-2.png" aria-label="Open the second title page of the master's thesis"> <img class="thesis-page-image" src="/assets/img/theses/msc-thesis-page-2.png" alt="Second title page of the master's thesis" loading="lazy"> </a> <figcaption>Title Page 2</figcaption> </figure> <figure class="thesis-page"> <a href="/assets/img/theses/msc-thesis-abstract.png" aria-label="Open the master's thesis English abstract page"> <img class="thesis-page-image" src="/assets/img/theses/msc-thesis-abstract.png" alt="English abstract page of the master's thesis" loading="lazy"> </a> <figcaption>English Abstract</figcaption> </figure> </div> </section> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Fangyu HOU. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+</style> <div class="thesis-list"> <div class="thesis-item"> <a href="/theses/undergraduate/"> Undergraduate Thesis → </a> <div class="thesis-title"> Sequence-based Prediction of Antibody Neutralisation Capacity </div> </div> <div class="thesis-item"> <a href="/theses/masters/"> Master's Thesis → </a> <div class="thesis-title"> Neutron Scattering Instruments for Soft Matter and Biological Physics </div> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Fangyu HOU. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
