@@ -2,19 +2,9 @@
 cv:
   name: Fangyu HOU
   headline: Applied Physics Researcher
-  location: Beijing, China
-  email: houfy761@gmail.com
-  phone: "+86 156 9430 8667"
-  website: https://github.com/houfy761-tech
-  social_networks:
-    - network: GitHub
-      username: houfy761-tech
-    - network: ORCID
-      username: 0009-0000-0990-1823
-
   sections:
     profile:
-      - Applied physics researcher working across multimodal olfactory sensing, biophysics, functional materials, scientific computing, and human-centered AI.
+      - bullet: Applied physics researcher working across multimodal olfactory sensing, biophysics, functional materials, scientific computing, and human-centered AI.
 
     education:
       - institution: City University of Hong Kong
