@@ -2,29 +2,33 @@
 layout: about
 title: about
 permalink: /
-subtitle: Personal website and portfolio.
+subtitle: Applied Physics · Biophysics · Sensing · AI for Science
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p>GitHub: <a href="https://github.com/houfy761-tech">houfy761-tech</a></p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-I am building this site as a personal homepage for projects, notes, research interests, and selected work.
+I am an applied physics researcher working at the intersection of
+experimental physics, sensing, scientific computing, and AI for Science.
 
-This website is powered by GitHub Pages and the al-folio theme. More personal details, project descriptions, publications, and CV content can be added here as the site evolves.
+My research interests include multimodal sensing, biophysics,
+functional materials, advanced microscopy, and computational modeling.
+I am particularly interested in combining physical experiments with
+data-driven and AI-based methods to study complex scientific systems.
